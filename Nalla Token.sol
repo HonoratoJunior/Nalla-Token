@@ -17,7 +17,7 @@ interface ERC20Interface{
  
 //Actual token contract 
 contract DIOToken is ERC20Interface{
-    string public symbol = "nalla" ;
+    string public symbol = "Nalla" ;
     string public  name = "Nalla Coin";
     uint8 public decimals = 2;
     uint256 public _totalSupply;
