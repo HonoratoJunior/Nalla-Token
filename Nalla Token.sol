@@ -19,14 +19,14 @@ interface ERC20Interface{
 contract DIOToken is ERC20Interface{
     string public symbol = "Nalla" ;
     string public  name = "Nalla Coin";
-    uint8 public decimals = 2;
+    uint8 public decimals = 8;
     uint256 public _totalSupply;
  
     mapping(address => uint) balances;
     mapping(address => mapping(address => uint)) allowed;
  
     constructor() {
-        _totalSupply = 1000000;
+        _totalSupply = 9000000;
         balances[msg.sender] = _totalSupply;
     }
  
